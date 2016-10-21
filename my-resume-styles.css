@@ -1,0 +1,85 @@
+body {
+    background-color: #728CA6;
+}
+
+h1, h2, h3 {
+    color: white;
+    font-family: 'Francois One', sans-serif;
+}
+
+p, ul li {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    width: 85%;
+    background-color: #4A6B8A;
+    margin:auto;
+    /*border: 2px solid white;*/
+    padding: 15px 0px 15px 0px;
+}
+
+.main-sections {
+    background-color: #2A4D6E;
+    width: 80%;
+    /*border: 1px solid white;*/
+    margin: 20px auto 20px auto;
+    /*color: white;*/
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    padding: 10px;
+}
+
+.personal-info-table {
+    width: 60%;
+    margin: 10px auto 30px auto;
+    border-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.personal-info-table tbody tr td {
+    background-color: #133353;
+    width: 90%;
+    padding: 10px;
+    color: white;
+}
+
+.personal-info-table tbody tr td:hover, .personal-info-table tbody tr td:active, .personal-info-table tbody tr td:focus {
+    background-color: #4A6B8A;
+}
+
+.sub-sections {
+    background-color: #133353;
+    width: 80%;
+    /*border: 2px dashed yellow;*/
+    margin: 20px auto 20px auto;
+    /*color: white;*/
+    padding: 10px;
+}
+
+#personal-image {
+    width: 100px;
+    border: 1px solid white;
+    float: left;
+    margin: 15px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
+p {
+    display: inline;
+    text-align: justify;
+}
+
+.sub-sections:hover, .sub-sections:active, .sub-sections:focus {
+    background-color: #4A6B8A;
+}
+
+a:link, a:visited {
+    color: white;
+    font-weight: bold;
+}
