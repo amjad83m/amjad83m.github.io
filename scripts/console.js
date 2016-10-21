@@ -4,4 +4,6 @@ function writeToConsole(userText) {
     console.log(userText);
 }
 
-writeToConsole('Hi laurens, nothing to show here, just the dummy text you requested :)');
+writeToConsole('');
+writeToConsole('Hi Laurens, nothing to show here, just the dummy text you requested :)');
+writeToConsole('');

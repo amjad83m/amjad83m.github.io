@@ -2,6 +2,7 @@
 
 function changeElementText(selectedElement, newText) {
     document.querySelector(selectedElement).innerHTML = newText;
+    console.log('Element ' + selectedElement + ' is modified!');
 }
 
 changeElementText('#job1', 'System Admin');
