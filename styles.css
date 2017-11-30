@@ -44,10 +44,11 @@ h1, h2, h3 {
     color: white;
 }
 
+/*
 .personal-info-table tbody tr td:hover, .personal-info-table tbody tr td:active, .personal-info-table tbody tr td:focus {
     background-color: #4A6B8A;
 }
-
+*/
 .sub-sections {
     background-color: #133353;
     width: 80%;
