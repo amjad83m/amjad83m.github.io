@@ -40,18 +40,30 @@ h1, h2, h3 {
     padding: 10px;
 }
 
-.personal-info-table {
+#personal-info-table, #lang-table {
     border-spacing: 5px;
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     padding-bottom: 10px;
     width: 65%;
+    color: white;
 }
 
- td {
-    background-color: #133353;
+#personal-info-table td, #lang-table td, #lang-table th {
     padding: 10px;
-    color: white;
+}
+
+ #personal-info-table td {
+    background-color: #133353;
+}
+
+#lang-table td {
+    background-color: #2A4D6E;
+    text-align: center;
+}
+
+#lang-table th {
+    background-color: #4A6B8A;
 }
 
 .table-class {
